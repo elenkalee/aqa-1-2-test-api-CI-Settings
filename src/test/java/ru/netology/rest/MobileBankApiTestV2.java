@@ -13,7 +13,7 @@ class MobileBankApiTestV2 {
       .when()
           .get("/demo/accounts")
       .then()
-          .statusCode(200)
+          .statusCode(203)
           .contentType(ContentType.JSON)
       ;
     }
